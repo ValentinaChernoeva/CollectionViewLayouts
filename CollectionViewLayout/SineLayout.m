@@ -45,12 +45,11 @@
             
             NSIndexPath *indexPath = [NSIndexPath indexPathForItem:item inSection:section];
             UICollectionViewLayoutAttributes *attributes = [UICollectionViewLayoutAttributes layoutAttributesForCellWithIndexPath:indexPath];
-            
             attributes.size = itemSize;
             attributes.center = attributCenter;
-
             NSString *key = [self layoutKeyForIndexPath:indexPath];
             self.layoutAttributes[key] = attributes;
+            
             y += M_PI / self.itemsQuantity;
         }
     }

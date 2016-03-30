@@ -10,9 +10,6 @@
 
 @interface SineLayout : UICollectionViewLayout
 
-//@property (readonly) CGFloat horizontalInset;
-//@property (readonly) CGFloat verticalInset;
-
 @property (readonly) NSInteger itemsQuantity;
 
 @end
