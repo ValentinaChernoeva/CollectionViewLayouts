@@ -22,12 +22,6 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewLayout key="collectionViewLayout" id="Rza-Nt-rrH" customClass="SineLayout">
                                     <userDefinedRuntimeAttributes>
-                                        <userDefinedRuntimeAttribute type="number" keyPath="horizontalInset">
-                                            <integer key="value" value="2"/>
-                                        </userDefinedRuntimeAttribute>
-                                        <userDefinedRuntimeAttribute type="number" keyPath="verticalInset">
-                                            <integer key="value" value="2"/>
-                                        </userDefinedRuntimeAttribute>
                                         <userDefinedRuntimeAttribute type="number" keyPath="itemsQuantity">
                                             <integer key="value" value="5"/>
                                         </userDefinedRuntimeAttribute>
