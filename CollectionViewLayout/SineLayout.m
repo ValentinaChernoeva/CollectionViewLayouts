@@ -47,6 +47,12 @@
             UICollectionViewLayoutAttributes *attributes = [UICollectionViewLayoutAttributes layoutAttributesForCellWithIndexPath:indexPath];
             attributes.size = itemSize;
             attributes.center = attributCenter;
+            
+            if (attributCenter.x > itemSize.width/2
+                && attributCenter.x < CGRectGetWidth(transitionRect) + itemSize.width/2) {
+                attributes.transform = CGAffineTransformMakeRotation(M_PI_4);
+            }
+            
             NSString *key = [self layoutKeyForIndexPath:indexPath];
             self.layoutAttributes[key] = attributes;
             

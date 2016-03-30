@@ -23,7 +23,7 @@
                                 <collectionViewLayout key="collectionViewLayout" id="Rza-Nt-rrH" customClass="SineLayout">
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="number" keyPath="itemsQuantity">
-                                            <integer key="value" value="5"/>
+                                            <integer key="value" value="6"/>
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
                                 </collectionViewLayout>
