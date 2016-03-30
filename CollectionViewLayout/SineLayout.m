@@ -83,11 +83,6 @@
     return self.contentSize;
 }
 
-- (UICollectionViewLayoutAttributes *)layoutAttributesForItemAtIndexPath:(NSIndexPath *)indexPath {
-    NSString *key = [self layoutKeyForIndexPath:indexPath];
-    return self.layoutAttributes[key];
-}
-
 - (NSArray *)layoutAttributesForElementsInRect:(CGRect)rect {
     NSPredicate *predicate = [NSPredicate predicateWithBlock:^BOOL(NSString *evaluatedObject, NSDictionary *bindings) {
         UICollectionViewLayoutAttributes *layoutAttribute = self.layoutAttributes[evaluatedObject];
