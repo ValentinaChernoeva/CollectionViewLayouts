@@ -21,7 +21,7 @@
     self = [super init];
     if (self) {
         collectionView.dataSource = self;
-        self.cellIdentifier = cellIdentifier;
+        self.cellIdentifier = [cellIdentifier copy];
     }
     return self;
 }
